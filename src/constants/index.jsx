@@ -65,14 +65,14 @@ export const PROJECTS = [
     id: 3,
     name: "ENHANCEMENT-OF-MOVIE-DATABASE-APP",
     description:
-      "The Enhanced Movie Database App is designed to be the ultimate tool for movie lovers, offering a rich and immersive experience that caters to diverse interests and preferences. By integrating advanced features and providing a personalized touch, it aims to enhance the way users discover, explore, and engage with the world of cinema.",
+    "The Enhanced Movie Database App is designed to be the ultimate tool for movie lovers, offering a rich and immersive experience that caters to diverse interests and preferences. By integrating advanced features and providing a personalized touch, it aims to enhance the way users discover, explore, and engage with the world of cinema.",
     image: projectImage3,
     githubLink:
       "https://github.com/Saikiranbollu14/ENHANCEMENT-OF-MOVIE-DATABASE-APP",
   },
   {
     id: 4,
-    name: "Nxt Trendz ( ECommerce Clone - Amazon, Flipkart)",
+    name: "Nxt Trendz(ECommerce Clone-Amazon,Flipkart)",
     description:
       "The Nxt Trendz application is designed to be a powerful and user-centric e-commerce platform, offering a wide range of features to meet the needs of modern shoppers. By providing robust product discovery tools, personalized recommendations, and a streamlined shopping experience, Nxt Trendz aims to deliver a compelling and efficient online shopping journey.",
     image: projectImage4,
@@ -82,7 +82,7 @@ export const PROJECTS = [
     id: 5,
     name: "Enhancement-of-Restaurant-App",
     description:
-      "The Enhancement of Restaurant App project is designed to deliver a more efficient, engaging, and secure application experience for both restaurant operators and their customers. By addressing current pain points and integrating modern features, this project will contribute to increased customer satisfaction, improved operational efficiency, and overall business success.",
+    "The Enhancement of Restaurant App project is designed to deliver a more efficient, engaging, and secure application experience for both restaurant operators and their customers. By addressing current pain points and integrating modern features, this project will contribute to increased customer satisfaction, improved operational efficiency, and overall business success.",
     image: projectImage5,
     githubLink:
       "https://github.com/Saikiranbollu14/Enhancement-of-Restaurant-App-main",
@@ -91,7 +91,7 @@ export const PROJECTS = [
     id: 6,
     name: "Nxt Watch",
     description:
-      "NxtWatch aims to set a new standard in video sharing by combining cutting-edge technology with an enhanced user experience. With its focus on personalization, engagement, and community building, NxtWatch is poised to become a leading platform for video content, catering to both viewers and creators alike.",
+    "NxtWatch aims to set a new standard in video sharing by combining cutting-edge technology with an enhanced user experience. With its focus on personalization, engagement, and community building, NxtWatch is poised to become a leading platform for video content, catering to both viewers and creators alike.",
     image: projectImage6,
     githubLink: "https://github.com/Saikiranbollu14/NxtWatch-project-master",
   },

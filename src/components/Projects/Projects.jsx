@@ -21,22 +21,24 @@ const Projects = () => {
             transition={{ duration: 0.5 }}
             whileHover={{ scale: 1.05 }}
             key={project.id}
-            className="group relative overflow-hidden rounded-3xl border border-gray-200 bg-gray-800" // Added border and background color for debugging
+            className="group relative h-full overflow-hidden rounded-3xl border border-gray-200 bg-gray-800"
           >
+            {/* Ensure image takes up full space */}
             <motion.img
               whileHover={{ scale: 1.1 }}
               src={project.image}
               alt={project.name}
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
+            {/* Overlay details */}
             <motion.div
               initial={{ opacity: 0 }}
               whileHover={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100 p-4" // Added padding for debugging
+              className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100 p-4 lg:group-hover:opacity-100 lg:opacity-0"
             >
               <h3 className="mb-2 text-xl">{project.name}</h3>
-              <p className="mb-4">{project.description}</p>
+              <p className="mb-4 text-center">{project.description}</p>
               <a
                 href={project.githubLink}
                 target="_blank"
